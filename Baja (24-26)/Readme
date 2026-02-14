@@ -1,1 +1,33 @@
-Esses códigos foram os códigos que foram utilizados na Eletrônica do Baja, durante os anos de 2024 até o final de 2025 e começo de 2026, nas competições em que participei.
+# Baja SAE - Sistema de Telemetria e Aquisição de Dados
+
+## Descrição
+Este repositório contém os códigos desenvolvidos para o sistema eletrônico do veículo Baja SAE entre 2024 e 2026.
+
+O sistema é responsável pela aquisição de dados do veículo, armazenamento, transmissão e exibição de informações ao piloto.
+
+## Contexto
+Atuei na equipe entre março de 2024 e março de 2025, tornando-me líder da área de eletrônica até o início de 2026.
+
+## Arquitetura do Sistema
+- Microcontrolador: ESP32  
+- Comunicação: LoRa  
+- Armazenamento: Cartão SD  
+- Interface: Display LCD e 7 segmentos
+
+## Sensores Utilizados
+- Velocímetro  
+- Acelerômetro  
+- Sensor de temperatura  
+- Sensor de pressão de freio  
+- Giroscópio  
+
+## Comunicação
+Os dados eram transmitidos via LoRa para análise posterior.
+
+## Armazenamento
+Dados registrados em cartão SD para posterior tratamento.
+
+## Interface com o Piloto
+Exibição de dados em tempo real:
+- LCD (versões iniciais)
+- Display 7 segmentos em LED (versões posteriores)
